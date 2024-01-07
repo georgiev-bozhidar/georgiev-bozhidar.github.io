@@ -3,6 +3,7 @@
 
 :root {
   --main-color: #000;
+  --subtitle-color: #555;
   /* --highlight-color: ; */
   /* --accent-color: ; */
   --primary-bg-color: #ffc;
@@ -62,6 +63,38 @@ img {
 .hero-nav > .nav {
   color: var(--main-color);
   font-size: 32px;
+  text-decoration: none;
+}
+
+.arrow {
+  font: inherit;
+  font-weight: 700;
+  margin: 0 0.25em 0 0;
+  opacity: 0;
+}
+
+.nav:hover .arrow {
+  opacity: 100;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .nav:hover .arrow {
+    transition: opacity 0.1s;
+    opacity: 100;
+  }
+}
+
+.hero p {
+  margin: 3em 0;
+  color: var(--subtitle-color);
+}
+
+.temporary {
+  font: inherit;
+}
+
+.temporary a {
+  font: inherit;
   text-decoration: none;
 }
 

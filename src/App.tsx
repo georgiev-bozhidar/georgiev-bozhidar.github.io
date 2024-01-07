@@ -1,8 +1,9 @@
-/* import { useState } from "react"; */
+/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* import { useState } from "react"; */;
 /* import reactLogo from "./assets/react.svg";
  * import viteLogo from "/vite.svg"; */
 import "./App.css";
 import { Code, Art, Music } from "./components/Projects";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -11,19 +12,35 @@ function App() {
         <div className="hero">
           <h2 id="hero-name">Bozhidar Georgiev</h2>
           <div className="hero-nav">
-            <a className="nav" href="">
+            <Link to="" className="nav">
+              <span className="arrow">{">"}</span>
               About Me
-            </a>
-            <a className="nav" href="">
+            </Link>
+            <Link to="" className="nav">
+              <span className="arrow">{">"}</span>
               Portfolio
-            </a>
-            <a className="nav" href="">
+            </Link>
+            <Link to="" className="nav">
+              <span className="arrow">{">"}</span>
               Something
-            </a>
-            <a className="nav" href="">
+            </Link>
+            <Link to="" className="nav">
+              <span className="arrow">{">"}</span>
               Contact
-            </a>
+            </Link>
           </div>
+          <p>
+            <span className="temporary">
+              Images used are from Unsplash.
+              <br /> Music used is from{" "}
+              <Link to="http://devilmayquake.com" target="_blank">
+                ULTRAKILL
+              </Link>
+              .
+            </span>
+            <br />
+            Copyright 2024 &copy; Bozhidar Georgiev
+          </p>
         </div>
         <div className="main">
           <div className="about-me">
@@ -97,37 +114,13 @@ function App() {
                   imagePath="img/ultrakill-infinite-hyperdeath-cover.jpg"
                   musicPath="audio/Heaven Pierce Her - Into the Fire.mp3"
                   artistName="Heaven Pierce Her"
-                  musicName="Into the Fire"
+                  musicName="Info the Fire"
                 />
                 <Music
                   imagePath="img/ultrakill-imperfect-hatred-cover.png"
                   musicPath="audio/Heaven Pierce Her - Dune Eternal.mp3"
                   artistName="Heaven Pierce Her"
                   musicName="Dune Eternal"
-                />
-                <Music
-                  imagePath="img/ultrakill-death-odyssey-cover.jpg"
-                  musicPath="audio/Heaven Pierce Her - Death Odyssey.mp3"
-                  artistName="Heaven Pierce Her"
-                  musicName="Death Odyssey"
-                />
-                <Music
-                  imagePath="img/ultrakill-flesh-prison-cover.png"
-                  musicPath="audio/Heaven Pierce Her - ORDER.mp3"
-                  artistName="Heaven Pierce Her"
-                  musicName="ORDER"
-                />
-                <Music
-                  imagePath="img/ultrakill-pandemonium-cover.jpg"
-                  musicPath="audio/Heaven Pierce Her - WAR.mp3"
-                  artistName="Heaven Pierce Her"
-                  musicName="WAR"
-                />
-                <Music
-                  imagePath="img/ultrakill-1000thr-cover.jpg"
-                  musicPath="audio/Heaven Pierce Her - War Without Reason.mp3"
-                  artistName="Heaven Pierce Her"
-                  musicName="War Without Reason"
                 />
               </div>
             </div>
