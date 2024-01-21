@@ -12,38 +12,34 @@ function App() {
         <div className="hero">
           <h2 id="hero-name">Bozhidar Georgiev</h2>
           <div className="hero-nav">
-            <Link to="" className="nav">
-              <span className="arrow">{">"}</span>
+            <a href="#about-me" className="nav">
               About Me
-            </Link>
-            <Link to="" className="nav">
-              <span className="arrow">{">"}</span>
+            </a>
+            <a href="#portfolio" className="nav">
               Portfolio
-            </Link>
-            <Link to="" className="nav">
-              <span className="arrow">{">"}</span>
+            </a>
+            <a href="#something" className="nav">
               Something
-            </Link>
-            <Link to="" className="nav">
-              <span className="arrow">{">"}</span>
+            </a>
+            <a href="#contact" className="nav">
               Contact
-            </Link>
+            </a>
+            {/* <Link to="#about-me" className="nav">
+                About Me
+                </Link>
+                <Link to="#portfolio" className="nav">
+                Portfolio
+                </Link>
+                <Link to="#something" className="nav">
+                Something
+                </Link>
+                <Link to="#contact" className="nav">
+                Contact
+                </Link> */}
           </div>
-          <p>
-            <span className="temporary">
-              Images used are from Unsplash.
-              <br /> Music used is from{" "}
-              <Link to="http://devilmayquake.com" target="_blank">
-                ULTRAKILL
-              </Link>
-              .
-            </span>
-            <br />
-            Copyright 2024 &copy; Bozhidar Georgiev
-          </p>
         </div>
         <div className="main">
-          <div className="about-me">
+          <div id="about-me">
             <h3>About Me</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
@@ -78,53 +74,84 @@ function App() {
               at ante. Nullam quis convallis elit.
             </p>
           </div>
-          <div className="portfolio">
-            <div className="container">
-              <h3>Projects</h3>
-              <div className="projects">
-                <Code
-                  imagePath="img/andrea-de-santis-g6nPslCoXDs-unsplash.jpg"
-                  projectName="Project Name"
-                  projectDescription="A simple description of the project that just so happens to be exactly three lines."
-                />
-                <Code
-                  imagePath="img/neom-g6Me5mUQQIQ-unsplash.jpg"
-                  projectName="Project Name"
-                  projectDescription="A simple description of the project that just so happens to be exactly three lines."
-                />
-              </div>
-            </div>
-
-            <div className="container">
-              <h3>Art</h3>
-              <Art
-                imagePath="img/neom-s0A8sa9oasY-unsplash.jpg"
-                artName="Art Name"
+          <div id="portfolio">
+            <h3>Projects</h3>
+            <div className="projects">
+              <Code
+                imagePath="/img/andrea-de-santis-g6nPslCoXDs-unsplash.jpg"
+                projectName="Project Name"
+                projectDescription="A simple description of the project that just so happens to be exactly three lines."
               />
-              <Art
-                imagePath="img/neom-tuEtpjghVmg-unsplash.jpg"
-                artName="Art Name"
+              <Code
+                imagePath="/img/neom-g6Me5mUQQIQ-unsplash.jpg"
+                projectName="Project Name"
+                projectDescription="A simple description of the project that just so happens to be exactly three lines."
               />
             </div>
 
-            <div className="container">
-              <h3>Music</h3>
-              <div className="musics">
-                <Music
-                  imagePath="img/ultrakill-infinite-hyperdeath-cover.jpg"
-                  musicPath="audio/Heaven Pierce Her - Into the Fire.mp3"
-                  artistName="Heaven Pierce Her"
-                  musicName="Info the Fire"
-                />
-                <Music
-                  imagePath="img/ultrakill-imperfect-hatred-cover.png"
-                  musicPath="audio/Heaven Pierce Her - Dune Eternal.mp3"
-                  artistName="Heaven Pierce Her"
-                  musicName="Dune Eternal"
-                />
-              </div>
+            <h3>Art</h3>
+            <Art
+              imagePath="/img/neom-s0A8sa9oasY-unsplash.jpg"
+              artName="Art Name"
+            />
+            <Art imagePath="/img/neom-tuEtpjghVmg-unsplash.jpg" />
+
+            <h3>Music</h3>
+            <div className="musics">
+              <Music
+                imagePath="/img/ultrakill-infinite-hyperdeath-cover.jpg"
+                artistName="Heaven Pierce Her"
+                musicName="Into the Fire"
+              />
+              <Music
+                imagePath="/img/ultrakill-imperfect-hatred-cover.png"
+                artistName="Heaven Pierce Her"
+                musicName="Dune Eternal"
+              />
+              <Music
+                imagePath="/img/ultrakill-death-odyssey-cover.jpg"
+                artistName="Heaven Pierce Her"
+                musicName="Death Odyssey"
+              />
+              <Music
+                imagePath="/img/ultrakill-flesh-prison-cover.png"
+                artistName="Heaven Pierce Her"
+                musicName="ORDER"
+              />
+              <Music
+                imagePath="/img/ultrakill-pandemonium-cover.jpg"
+                artistName="Heaven Pierce Her"
+                musicName="WAR"
+              />
+              <Music
+                imagePath="/img/ultrakill-1000thr-cover.jpg"
+                artistName="Heaven Pierce Her"
+                musicName="War Without Reason"
+              />
             </div>
           </div>
+          <div id="something">
+            <h3 id="something">Something</h3>
+          </div>
+          <div id="contact">
+            <h3 id="contact">Contact</h3>
+          </div>
+        </div>
+        <div className="footer">
+          <footer>
+            <p>
+              <span className="temporary">
+                Images used are from Unsplash.
+                <br /> Music and covers used are from{" "}
+                <Link to="http://devilmayquake.com" target="_blank">
+                  ULTRAKILL
+                </Link>
+                .
+              </span>
+              <br />
+              Copyright 2024 &copy; Bozhidar Georgiev
+            </p>
+          </footer>
         </div>
       </div>
     </>
@@ -134,10 +161,10 @@ function App() {
 export default App;
 
 /*
-img/andrea-de-santis-g6nPslCoXDs-unsplash.jpg
-img/neom-g6Me5mUQQIQ-unsplash.jpg
-img/neom-s0A8sa9oasY-unsplash.jpg
-img/neom-tuEtpjghVmg-unsplash.jpg
-img/samuel-arkwright-_V4dS5_NFfs-unsplash.jpg
-img/trevor-vannoy-GtWsGhRdrss-unsplash.jpg
+/img/andrea-de-santis-g6nPslCoXDs-unsplash.jpg
+/img/neom-g6Me5mUQQIQ-unsplash.jpg
+/img/neom-s0A8sa9oasY-unsplash.jpg
+/img/neom-tuEtpjghVmg-unsplash.jpg
+/img/samuel-arkwright-_V4dS5_NFfs-unsplash.jpg
+/img/trevor-vannoy-GtWsGhRdrss-unsplash.jpg
  */
