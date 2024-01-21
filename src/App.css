@@ -12,10 +12,16 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding: 5em;
 }
 
 body {
   background: var(--primary-bg-color);
+}
+
+.strong {
+  font-size: inherit;
+  font-weight: 700;
 }
 
 .site {
@@ -28,9 +34,22 @@ body {
   padding: 1em;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f0f;
+}
+
+li,
 p {
   font-size: 1.25rem;
   max-width: 50ch;
+}
+
+li {
+  list-style-type: none;
 }
 
 h3 {
@@ -69,6 +88,15 @@ audio {
   gap: 1em;
 }
 
+.socials {
+  display: flex;
+  gap: 0.5em;
+}
+
+.icon:hover {
+  color: #f0f;
+}
+
 #about-me {
   min-width: 50ch;
   max-width: 50rem;
@@ -79,10 +107,6 @@ audio {
   font-size: 1.5rem;
   color: #000;
   text-decoration: none;
-}
-
-.hero-nav > a:hover {
-  color: #f0f;
 }
 
 .main {
@@ -101,8 +125,16 @@ audio {
 .projects,
 .musics {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2em;
+}
+
+.projects,
+.musics {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.art {
+  width: 100%;
 }
 
 .music {
@@ -121,6 +153,17 @@ audio {
 
 .footer p {
   font-size: 1rem;
+}
+
+.skill-list {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 2em;
+  width: 100%;
+}
+
+.temporary {
+  display: none;
 }
 
 @media (max-width: 1000px) {
