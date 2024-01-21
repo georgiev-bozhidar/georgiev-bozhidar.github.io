@@ -163,6 +163,7 @@ audio {
   }
 }
 
+/* TODO add nav hamburger menu */
 @media (max-width: 570px) {
   .projects,
   .musics {

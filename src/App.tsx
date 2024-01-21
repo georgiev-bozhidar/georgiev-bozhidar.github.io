@@ -1,4 +1,5 @@
-/* import { useState } from "react"; */ /* import reactLogo from "./assets/react.svg";
+/* import { useState } from "react"; */
+/* import reactLogo from "./assets/react.svg";
  * import viteLogo from "/vite.svg"; */
 import "./App.css";
 import { Code, Art, Music } from "./components/Projects";
@@ -140,7 +141,8 @@ function App() {
           <footer>
             <p>
               <span className="temporary">
-                Images used are from Unsplash.
+                Everything shown is placeholder material. Images used are from
+                Unsplash.
                 <br /> Music and covers used are from{" "}
                 <Link to="http://devilmayquake.com" target="_blank">
                   ULTRAKILL
