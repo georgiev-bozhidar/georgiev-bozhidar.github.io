@@ -12,3 +12,15 @@ h5,
 h6 {
   text-wrap: balanced;
 }
+
+p {
+  text-wrap: pretty;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+}

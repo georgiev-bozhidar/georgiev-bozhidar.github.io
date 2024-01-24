@@ -7,7 +7,7 @@ interface CodeProps {
 
 export function Code({
   imagePath,
-  imageAlt = "",
+  imageAlt,
   projectName = "Project Name",
   projectDescription = "A short description of the project.",
 }: CodeProps) {
@@ -30,15 +30,11 @@ interface ArtProps {
   artName?: string;
 }
 
-export function Art({
-  imagePath,
-  imageAlt = "",
-  artName = "Art Name",
-}: ArtProps) {
+export function Art({ imagePath, imageAlt, artName }: ArtProps) {
   return (
     <div className="project art">
       <img src={imagePath} alt={imageAlt} />
-      <h4>{artName}</h4>
+      {artName ? <h4>{artName}</h4> : null}
     </div>
   );
 }
@@ -46,14 +42,14 @@ export function Art({
 interface MusicProps {
   imagePath?: string;
   imageAlt?: string;
-  musicPath: string;
+  musicPath?: string;
   artistName: string;
   musicName: string;
 }
 
 export function Music({
-  imagePath = "",
-  imageAlt = "",
+  imagePath,
+  imageAlt,
   musicPath,
   artistName,
   musicName,
@@ -69,7 +65,14 @@ export function Music({
             <h4>{artistName}</h4>
             <p>{musicName}</p>
           </div>
-          <audio controls src={musicPath}></audio>
+          {musicPath == null ? (
+            <audio
+              controls
+              src={"/audio/" + artistName + " - " + musicName + ".mp3"}
+            ></audio>
+          ) : (
+            <audio controls src={musicPath}></audio>
+          )}
         </div>
       </div>
     </>
