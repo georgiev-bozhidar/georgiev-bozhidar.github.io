@@ -13,6 +13,8 @@ import {
   faJava,
   faLinux,
   faLinkedin,
+  faDocker,
+  faSquareGit,
 } from "@fortawesome/free-brands-svg-icons";
 
 function App() {
@@ -36,12 +38,7 @@ function App() {
             </a>
             <div className="socials">
               <Link to="https://github.com/georgiev-bozhidar" target="_">
-                <FontAwesomeIcon
-                  className="icon"
-                  icon={faGithub}
-                  size={"2x"}
-                  color={"#000000"}
-                />
+                <FontAwesomeIcon className="icon" icon={faGithub} size={"2x"} />
               </Link>
               <Link
                 to="https://linkedin.com/in/bozhidar-georgiev-71b75520a/"
@@ -51,7 +48,6 @@ function App() {
                   className="icon"
                   icon={faLinkedin}
                   size={"2x"}
-                  color={"#000000"}
                 />
               </Link>
             </div>
@@ -70,6 +66,8 @@ function App() {
           </div>
         </div>
         <div className="main">
+          <ReactSVG className="svg" src="/svg/bg-fill-edited.svg" />
+
           <div id="about-me">
             <h3>About Me</h3>
             {/* <h4>Hello!</h4> */}
@@ -123,63 +121,75 @@ function App() {
           </div>
           <div id="skills">
             <h3>Skills</h3>
-            <ul className="skill-list front-end">
-              <li className="front-end">
-                <ul>
-                  <li>
-                    <h4>
-                      <span className="strong">Front End</span>
-                    </h4>
-                  </li>
-                  <li>
-                    <ul>
-                      <li>
-                        <FontAwesomeIcon icon={faCode} color={"#000000"} />{" "}
-                        HTML/CSS
-                      </li>
-                      <li>
-                        <FontAwesomeIcon icon={faReact} color={"#000000"} />{" "}
-                        React
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li className="back-end">
-                <ul>
-                  <li>
-                    <h4>
-                      <span className="strong">Back End</span>
-                    </h4>
-                  </li>
-                  <li>
-                    <ul>
-                      <li>
-                        <FontAwesomeIcon icon={faJava} color={"#000000"} /> Java
-                      </li>
-                      <li>Spring Boot</li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li className="other">
-                <ul>
-                  <li>
-                    <h4>
-                      <span className="strong">Other</span>
-                    </h4>
-                  </li>
-                  <li>
-                    <ul>
-                      <li>
-                        <FontAwesomeIcon icon={faLinux} color={"#000000"} />{" "}
-                        Linux
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            <div className="skill-list">
+              <div className="front-end">
+                <h4>
+                  <span className="strong">Front End</span>
+                </h4>
+                <div className="skill">
+                  <FontAwesomeIcon
+                    className="static-icon"
+                    icon={faCode}
+                    size={"1x"}
+                  />{" "}
+                  <p>HTML/CSS</p>
+                </div>
+                <div className="skill">
+                  <FontAwesomeIcon
+                    className="static-icon"
+                    icon={faReact}
+                    size={"1x"}
+                  />{" "}
+                  <p>React</p>
+                </div>
+              </div>
+              <div className="back-end">
+                <h4>
+                  <span className="strong">Back End</span>
+                </h4>
+                <div className="skill">
+                  <FontAwesomeIcon
+                    className="static-icon"
+                    icon={faJava}
+                    size={"1x"}
+                  />
+                  <p>Java</p>
+                </div>
+                <div className="skill">
+                  <span></span>
+                  <p>Spring Boot</p>
+                </div>
+              </div>
+              <div className="other">
+                <h4>
+                  <span className="strong">Other</span>
+                </h4>
+                <div className="skill">
+                  <FontAwesomeIcon
+                    className="static-icon"
+                    icon={faLinux}
+                    size={"1x"}
+                  />
+                  <p>Linux</p>
+                </div>
+                <div className="skill">
+                  <FontAwesomeIcon
+                    className="static-icon"
+                    icon={faSquareGit}
+                    size={"1x"}
+                  />
+                  <p>Git</p>
+                </div>
+                <div className="skill">
+                  <FontAwesomeIcon
+                    className="static-icon"
+                    icon={faDocker}
+                    size={"1x"}
+                  />
+                  <p>Docker</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div id="contact">
             <h3>Contact</h3>

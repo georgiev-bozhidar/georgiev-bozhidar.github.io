@@ -175,10 +175,15 @@ audio {
 }
 
 .skill-list {
-  display: flex;
-  /* flex-direction: column; */
-  gap: 2em;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+  max-width: 100%;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
 
 .temporary {
