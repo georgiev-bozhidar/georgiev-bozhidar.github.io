@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="191.65266mm"
+   height="109.63477mm"
+   viewBox="0 0 191.65266 109.63477"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.93990699,29.797097)">
+    <g
+       id="g32"
+       transform="translate(0,-55.754513)">
+      <g
+         id="g30"
+         transform="translate(-23.588448)">
+        <rect
+           id="rect28"
+           width="54.682308"
+           height="54.682308"
+           x="24.660648"
+           y="26.090246" />
+        <rect
+           id="rect29"
+           width="54.682308"
+           height="54.681999"
+           x="24.660646"
+           y="80.772552" />
+        <ellipse
+           id="path30"
+           cx="79.342957"
+           cy="53.4314"
+           rx="27.34115"
+           ry="27.341152" />
+        <ellipse
+           id="ellipse30"
+           cx="79.342957"
+           cy="108.1134"
+           rx="27.34115"
+           ry="27.341152" />
+      </g>
+      <path
+         id="path31"
+         sodipodi:type="arc"
+         sodipodi:cx="137.77797"
+         sodipodi:cy="80.7724"
+         sodipodi:rx="54.682312"
+         sodipodi:ry="54.682156"
+         sodipodi:start="0"
+         sodipodi:end="5.4977871"
+         sodipodi:arc-type="slice"
+         d="M 192.46028,80.7724 A 54.682312,54.682156 0 0 1 148.44596,134.40385 54.682312,54.682156 0 0 1 87.258101,101.69836 54.682312,54.682156 0 0 1 107.3981,35.30585 54.682312,54.682156 0 0 1 176.4442,42.106275 L 137.77797,80.7724 Z" />
+    </g>
+  </g>
+</svg>
