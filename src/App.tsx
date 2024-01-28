@@ -2,7 +2,7 @@
 /* import reactLogo from "./assets/react.svg";
  * import viteLogo from "/vite.svg"; */
 import "./App.css";
-import { Code, Art, Music } from "./components/Projects";
+/* import { Code, Art, Music } from "./components/Projects"; */
 import { Link } from "react-router-dom";
 import { ReactSVG } from "react-svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -66,14 +66,15 @@ function App() {
           </div>
         </div>
         <div className="main">
-          <ReactSVG className="svg" src="/svg/bg-fill-edited.svg" />
+          <ReactSVG className="svg" src="/svg/bg-fill.svg" />
 
           <div id="about-me">
             <h3>About Me</h3>
             {/* <h4>Hello!</h4> */}
             <p>
               Hello! My name is Bozhidar Georgiev. I am a Full Stack Web
-              Developer with <span className="strong">React</span> and{" "}
+              Developer and Artist. I work with{" "}
+              <span className="strong">React</span> and{" "}
               <span className="strong">Spring Boot</span>.
             </p>
           </div>
