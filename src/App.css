@@ -4,10 +4,18 @@
 :root {
   --main-color: #000;
   --subtitle-color: #555;
-  /* --highlight-color: ; */
+  --highlight-color: #f0f;
   /* --accent-color: ; */
-  --primary-bg-color: #ffd;
-  --secondary-bg-color: #ffc;
+  --primary-bg-color: #ffc;
+  --secondary-bg-color: #ffe;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-color: #ffd;
+    --primary-bg-color: #111;
+    --secondary-bg-color: #222;
+  }
 }
 
 html {
@@ -16,7 +24,13 @@ html {
 }
 
 body {
+  color: var(--main-color);
   background: var(--primary-bg-color);
+}
+
+.svg {
+  fill: var(--main-color);
+  width: 100%;
 }
 
 .strong {
@@ -35,11 +49,12 @@ body {
 }
 
 a {
+  color: var(--main-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: #f0f;
+  color: var(--highlight-color);
 }
 
 li,
@@ -93,8 +108,13 @@ audio {
   gap: 0.5em;
 }
 
+.static-icon,
+.icon {
+  color: var(--main-color);
+}
+
 .icon:hover {
-  color: #f0f;
+  color: var(--highlight-color);
 }
 
 #about-me {
@@ -105,7 +125,6 @@ audio {
 
 .hero-nav > a {
   font-size: 1.5rem;
-  color: #000;
   text-decoration: none;
 }
 
