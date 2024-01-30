@@ -184,6 +184,23 @@ audio {
 .skill {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  text-align: center;
+  align-items: center;
+}
+
+.skill-type h4 {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+.skill-type {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.skill p {
+  margin: 0;
 }
 
 .temporary {

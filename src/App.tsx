@@ -123,7 +123,7 @@ function App() {
           <div id="skills">
             <h3>Skills</h3>
             <div className="skill-list">
-              <div className="front-end">
+              <div className="skill-type front-end">
                 <h4>
                   <span className="strong">Front End</span>
                 </h4>
@@ -144,7 +144,7 @@ function App() {
                   <p>React</p>
                 </div>
               </div>
-              <div className="back-end">
+              <div className="skill-type back-end">
                 <h4>
                   <span className="strong">Back End</span>
                 </h4>
@@ -161,7 +161,7 @@ function App() {
                   <p>Spring Boot</p>
                 </div>
               </div>
-              <div className="other">
+              <div className="skill-type other">
                 <h4>
                   <span className="strong">Other</span>
                 </h4>
