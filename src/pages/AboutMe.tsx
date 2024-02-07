@@ -3,7 +3,7 @@ import { ReactSVG } from "react-svg";
 export default function AboutMe() {
   return (
     <>
-      <ReactSVG className="svg" src="/svg/bg-fill-edited.svg" />
+      <ReactSVG className="svg" src="/svg/bg_fill.svg" />
 
       <div id="about-me">
         <h3>About Me</h3>

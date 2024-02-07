@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="160mm"
+   height="90mm"
+   viewBox="0 0 9.260416 5.2916679"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     style="display:inline"
+     transform="translate(-11.116997,-0.39795907)">
+    <g
+       id="g88"
+       style="display:inline"
+       transform="translate(60.561047,-25.219689)">
+      <g
+         id="g85">
+        <rect
+           style="opacity:1;fill-opacity:1;stroke:none;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           id="rect83"
+           width="2.6458333"
+           height="5.2916665"
+           x="-49.44405"
+           y="25.617649" />
+        <circle
+           style="opacity:1;fill-opacity:1;stroke:none;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           id="circle83"
+           cx="-46.798218"
+           cy="26.940565"
+           r="1.3229166" />
+        <circle
+           style="opacity:1;fill-opacity:1;stroke:none;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           id="circle84"
+           cx="-46.798218"
+           cy="29.586399"
+           r="1.3229166" />
+      </g>
+      <g
+         id="g87">
+        <path
+           style="display:inline;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           id="path85"
+           d="M 16.210228,8.9638443 A 2.6458333,2.6458333 0 0 1 14.080571,11.558839 2.6458333,2.6458333 0 0 1 11.119964,9.9763609 2.6458333,2.6458333 0 0 1 12.094449,6.7639144 2.6458333,2.6458333 0 0 1 15.435282,7.0929576 L 13.564395,8.9638443 Z"
+           transform="translate(-56.393863,19.299637)" />
+        <rect
+           style="display:inline;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           id="rect86"
+           width="1.3229166"
+           height="2.6458333"
+           x="-41.50655"
+           y="28.263481" />
+      </g>
+    </g>
+  </g>
+</svg>
